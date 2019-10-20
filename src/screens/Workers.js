@@ -12,6 +12,7 @@ const Workers = () => {
     const history = useHistory();
 
     const getWorkerFromServer = async () => {
+        
         /*
         axios.get("https://humanressources.herokuapp.com/workers")
         .then(res => {
